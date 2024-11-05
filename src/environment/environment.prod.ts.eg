@@ -1,0 +1,4 @@
+export const environment = {
+  production: true
+  my_env_var: "var"
+}

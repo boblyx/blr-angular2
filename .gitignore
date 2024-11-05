@@ -1,3 +1,6 @@
+# Ignore these because sensitive data may be accidentally committed.
+**/environment.ts
+**/environment.prod.ts
 .DS_STORE
 
 /dist/

@@ -13,8 +13,9 @@ npm install -g @angular/cli
 ```bash
 npm i .
 ```
-4. Run the development server
+4. Adjust environment variables by renaming `src/environment/environment.ts.eg` to `environment.ts`
+5. Run the development server
 ```bash
 ng serve
 ```
-5. Access your development preview from http://localhost:4200
+6. Access your development preview from http://localhost:4200
