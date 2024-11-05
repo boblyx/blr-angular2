@@ -1,18 +1,13 @@
-import {Component} from '@angular/core';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [MatSlideToggleModule],
-  template: `
-  <div class = "m-4">
-    <h1>{{title}}</h1>
-    <mat-slide-toggle>Test</mat-slide-toggle>
-  </div>
-  `,
-  styleUrls: ['./app.component.css'],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'default';
+  title = 'blr-angular2';
 }
